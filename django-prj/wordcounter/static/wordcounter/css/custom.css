@@ -1,0 +1,39 @@
+/*
+Custom styles
+*/
+
+html {
+    margin: 1em;
+}
+
+table.word-form {
+    margin: 2em 0;
+}
+
+table.word-form tr {
+    vertical-align: top;
+}
+
+div.link-section {
+    margin-bottom: 4em;
+}
+
+.dj-message {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    border-radius: 4px;
+    color: white;
+}
+
+.dj-message-success {
+    background-color: forestgreen;
+}
+
+.dj-message-warning {
+    background-color: goldenrod;
+}
+
+.dj-message-error {
+    background-color: #b94a48;
+}

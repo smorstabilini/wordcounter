@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block pageHeader %}
+    <div class="header">
+        <h1>Word counter</h1>
+        <h2>A website by Sergio Morstabilini</h2>
+    </div>
+{% endblock pageHeader %}
+
+{% block mainContent %}
+
+    <form action="" method ="post">
+        {% csrf_token %}
+        <table class="word-form">
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="Count words in the text field">
+    </form>
+
+
+{% endblock mainContent %}
